@@ -1,0 +1,7 @@
+apply plugin: 'groovy'
+
+group = 'groovy-katas'
+
+dependencies {
+   groovy localGroovy()
+}
